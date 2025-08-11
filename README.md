@@ -37,11 +37,20 @@ pnpm --filter server dev
 
 ### Project Structure
 
-root/
-pnpm-workspace.yaml # Workspace definition
-package.json # Root package scripts & dev dependencies
-client/ # React (Vite) frontend
-server/ # Node.js/Express backend
+```bash
+Conjugation-App-Version-2/
+├── README.md
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── packages/
+│   ├── client/
+│   │   ├── package.json
+│   │   └── src/
+│   └── server/
+│       ├── package.json
+│       └── src/
+└── .gitignore
+```
 
 ### Scripts
 
