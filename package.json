@@ -1,0 +1,11 @@
+{
+  "name": "conjugation-app-v2",
+  "version": "1.0.0",
+  "description": "Monorepo with React (Vite) frontend and Node.js backend.",
+  "scripts": {
+    "start": "concurrently \"pnpm --filter client dev\" \"pnpm --filter server dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
