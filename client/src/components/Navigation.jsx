@@ -1,11 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import classes from './Navigation.module.css';
+
 function Navigation() {
   return (
-    <header>
+    <header className={classes.header}>
       <h1>¡Conjugado!</h1>
       <nav>
-        {/* <NavLink>Reference</NavLink>
-        <NavLink>Practise</NavLink> */}
+        <ul className={classes.list}>
+          <li>Reference</li>
+          <li>Practise</li>
+        </ul>
       </nav>
     </header>
   );
