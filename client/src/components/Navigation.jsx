@@ -4,13 +4,15 @@ import classes from './Navigation.module.css';
 function Navigation() {
   return (
     <header className={classes.header}>
-      <h1>¡Conjugado!</h1>
-      <nav>
-        <ul className={classes.list}>
-          <li>Reference</li>
-          <li>Practise</li>
-        </ul>
-      </nav>
+      <div className={classes.inner}>
+        <h1>¡Conjugado!</h1>
+        <nav>
+          <ul className={classes.list}>
+            <li>Reference</li>
+            <li>Practise</li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }
