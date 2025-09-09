@@ -8,8 +8,26 @@ function Navigation() {
         <h1 className="logo">¡Conjugado!</h1>
         <nav>
           <ul className={classes.list}>
-            <li>Reference</li>
-            <li>Practise</li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+                }
+                to="reference"
+              >
+                Reference
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+                }
+                to="practise"
+              >
+                Practise
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
