@@ -5,7 +5,7 @@ function Navigation() {
   return (
     <header className={classes.header}>
       <div className={classes.inner}>
-        <h1>¡Conjugado!</h1>
+        <h1 className="logo">¡Conjugado!</h1>
         <nav>
           <ul className={classes.list}>
             <li>Reference</li>
